@@ -760,9 +760,9 @@ dependencies = [
 
 [[package]]
 name = "bevy_panorbit_camera"
-version = "0.19.3"
+version = "0.20.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0aec4ab2ef0d8527c3e85db205f6b0eb3c302f81401dfb7131db425f5fd78d2c"
+checksum = "bedd58a168c8c343c3bb67fafd35e0afae80936d4a53d5a31c7b654e13723bd2"
 dependencies = [
  "bevy",
 ]
@@ -2309,6 +2309,15 @@ name = "log"
 version = "0.4.22"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a7a70ba024b9dc04c27ea2f0c0548feb474ec5c54bba33a7f72f873a39d07b24"
+
+[[package]]
+name = "low-poly-terrain-bevy"
+version = "0.1.0"
+dependencies = [
+ "bevy",
+ "bevy_panorbit_camera",
+ "noise",
+]
 
 [[package]]
 name = "mach2"
@@ -4295,15 +4304,6 @@ name = "xml-rs"
 version = "0.8.22"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "af4e2e2f7cba5a093896c1e150fbfe177d1883e7448200efb81d40b9d339ef26"
-
-[[package]]
-name = "yt-low-poly-terrain-bevy"
-version = "0.1.0"
-dependencies = [
- "bevy",
- "bevy_panorbit_camera",
- "noise",
-]
 
 [[package]]
 name = "zerocopy"
